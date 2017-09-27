@@ -1,4 +1,4 @@
-﻿namespace DotNet
+namespace DotNet
 {
     public class Node
     {
@@ -20,7 +20,7 @@
         static int _count;
 
         public Bst()
-        { 
+        {
             _root = null;
             _count = 0;
         }
@@ -34,9 +34,9 @@
             }
             else if (data < _root.Data)
             {
-                newNode.Left = new Node(data);
+                _root.Left = newNode;
             }
-            else newNode.Right = new Node(data);
+            else _root.Right = newNode;
             _count++;
             return _root;
         }
