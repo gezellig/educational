@@ -1659,6 +1659,19 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "BinarySearchTree/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Microsoft.NETCore.App": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BinarySearchTree.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BinarySearchTree.dll": {}
+        }
       }
     }
   },
@@ -5604,10 +5617,16 @@
         "xunit.runner.visualstudio.2.2.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "BinarySearchTree/1.0.0": {
+      "type": "project",
+      "path": "../BinarySearchTree/BinarySearchTree.csproj",
+      "msbuildProject": "../BinarySearchTree/BinarySearchTree.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "BinarySearchTree >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 15.3.0-preview-20170628-02",
       "Microsoft.NETCore.App >= 2.0.0",
       "xunit >= 2.2.0",
@@ -5621,11 +5640,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/radetsky/Projects/Educational/TDD_BinarySearchTree/TDD_BinarySearchTree.csproj",
+      "projectUniqueName": "/home/radetsky/Documents/Educational/TDD_BinarySearchTree/TDD_BinarySearchTree.csproj",
       "projectName": "TDD_BinarySearchTree",
-      "projectPath": "/home/radetsky/Projects/Educational/TDD_BinarySearchTree/TDD_BinarySearchTree.csproj",
+      "projectPath": "/home/radetsky/Documents/Educational/TDD_BinarySearchTree/TDD_BinarySearchTree.csproj",
       "packagesPath": "/home/radetsky/.nuget/packages/",
-      "outputPath": "/home/radetsky/Projects/Educational/TDD_BinarySearchTree/obj/",
+      "outputPath": "/home/radetsky/Documents/Educational/TDD_BinarySearchTree/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5641,7 +5660,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/radetsky/Documents/Educational/BinarySearchTree/BinarySearchTree.csproj": {
+              "projectPath": "/home/radetsky/Documents/Educational/BinarySearchTree/BinarySearchTree.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

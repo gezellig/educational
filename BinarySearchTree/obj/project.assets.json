@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/radetsky/Projects/Educational/BinarySearchTree/BinarySearchTree.csproj",
+      "projectUniqueName": "/home/radetsky/Documents/Educational/BinarySearchTree/BinarySearchTree.csproj",
       "projectName": "BinarySearchTree",
-      "projectPath": "/home/radetsky/Projects/Educational/BinarySearchTree/BinarySearchTree.csproj",
+      "projectPath": "/home/radetsky/Documents/Educational/BinarySearchTree/BinarySearchTree.csproj",
       "packagesPath": "/home/radetsky/.nuget/packages/",
-      "outputPath": "/home/radetsky/Projects/Educational/BinarySearchTree/obj/",
+      "outputPath": "/home/radetsky/Documents/Educational/BinarySearchTree/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

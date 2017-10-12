@@ -40,5 +40,10 @@ namespace DotNet
             _count++;
             return _root;
         }
+        
+        public int Count()
+        {
+        return _count;
+        }
     }
 }
